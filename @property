@@ -1,0 +1,7 @@
+@property
+def file_path(self):
+    return self.filename
+
+@file_path.setter
+def file_path(self, path):
+    self.filename = path
